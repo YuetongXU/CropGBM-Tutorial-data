@@ -1,24 +1,24 @@
-These files contain all the data required by the Tutorial.
+## These files contain all the data required by the Tutorial.
 
-genofile.map, genofile.ped.zip are the genotype files before preprocessing (ped format).
+* genofile.map, genofile.ped.zip are the genotype files before preprocessing (ped format).
 
-genofile_filter.bed, genofile_filter.bim, genofile_filter.fam are the genotype files after preprocessing (bed format).
+* genofile_filter.bed, genofile_filter.bim, genofile_filter.fam are the genotype files after preprocessing (bed format).
 
-genofile_filter.geno is the genotype file after preprocessing. The first line is the SNP ID, the first column is the sample ID, and 012 represents the genotype. 
+* genofile_filter.geno is the genotype file after preprocessing. The first line is the SNP ID, the first column is the sample ID, and 012 represents the genotype. 
 
-ksampleid_file.txt content is sample ID to be extracted.
+* ksampleid_file.txt content is sample ID to be extracted.
 
-ksnpid_file.txt content is SNP ID to be extracted.
+* ksnpid_file.txt content is SNP ID to be extracted.
 
-rsampleid_file.txt content is sample ID to be removed.
+* rsampleid_file.txt content is sample ID to be removed.
 
-rsnpid_file.txt content is SNP ID to be removed.
+* rsnpid_file.txt content is SNP ID to be removed.
 
-ppexsampleid_file.txt content is the sample ID to be extracted.
+* ppexsampleid_file.txt content is the sample ID to be extracted.
 
-phefile.txt is the phenotype file. The file has 4 columns in total, the first column is the sample ID, the second column is the paternal ID, the third column is the strain, and the fourth column is the phenotype value.
+* phefile.txt is the phenotype file. The file has 4 columns in total, the first column is the sample ID, the second column is the paternal ID, the third column is the strain, and the fourth column is the phenotype value.
 
-phefile.numphe content is the sample ID and the transformed phenotype value.
+* phefile.numphe content is the sample ID and the transformed phenotype value.
 
 phefile.word2num content is the corresponding relationship between the phenotype and the number in the phenotype RECODE.
 

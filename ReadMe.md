@@ -20,16 +20,16 @@
 
 * phefile.numphe content is the sample ID and the transformed phenotype value.
 
-phefile.word2num content is the corresponding relationship between the phenotype and the number in the phenotype RECODE.
+* phefile.word2num content is the corresponding relationship between the phenotype and the number in the phenotype RECODE.
 
-train.geno.zip is the genotype data used for training. The file format is consistent with genofile_filter.geno.
+* train.geno.zip is the genotype data used for training. The file format is consistent with genofile_filter.geno.
 
-train.phe is the phenotype data corresponding to train.geno.zip. The file has 2 columns in total, the first column is the sample ID, the second column is the phenotype value.
+* train.phe is the phenotype data corresponding to train.geno.zip. The file has 2 columns in total, the first column is the sample ID, the second column is the phenotype value.
 
-train.lgb_model is the model file after training, and the tree structure is recorded in the file.
+* train.lgb_model is the model file after training, and the tree structure is recorded in the file.
 
-valid.geno is the genotype data used for verification. The file format is consistent with genofile_filter.geno.
+* valid.geno is the genotype data used for verification. The file format is consistent with genofile_filter.geno.
 
-valid.phe is the phenotype data corresponding to valid.geno. The file format is consistent with train.phe.
+* valid.phe is the phenotype data corresponding to valid.geno. The file format is consistent with train.phe.
 
-test.geno is the genotype data used for testing. The file format is consistent with genofile_filter.geno.
+* test.geno is the genotype data used for testing. The file format is consistent with genofile_filter.geno.

@@ -1,5 +1,7 @@
 ## These files contain all the data required by the Tutorial.
 
+[![DOI](https://zenodo.org/badge/361578809.svg)](https://zenodo.org/badge/latestdoi/361578809)
+
 * genofile.map, genofile.ped.zip are the genotype files before preprocessing (ped format).
 
 * genofile_filter.bed, genofile_filter.bim, genofile_filter.fam are the genotype files after preprocessing (bed format).
